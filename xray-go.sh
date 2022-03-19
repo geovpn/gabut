@@ -522,6 +522,6 @@ rm -f web.tar.gz
 systemctl daemon-reload
 systemctl restart nginx
 systemctl restart xray
-systemctl restart nginx
-systemctl restart xray
-systemctl restart xray@tcp_xtls.service
+systemctl running nginx
+systemctl running xray
+systemctl running xray@tcp_xtls.service
