@@ -81,10 +81,10 @@ sed -i 's/AcceptEnv/#AcceptEnv/g' /etc/ssh/sshd_config
 # install
 apt-get --reinstall --fix-missing install -y bzip2 gzip coreutils wget screen rsyslog iftop htop net-tools zip unzip wget net-tools curl nano sed screen gnupg gnupg1 bc apt-transport-https build-essential dirmngr libxml-parser-perl neofetch git lsof
 echo "clear" >> .profile
-echo "neofetch --ascii_distro SliTaz" >> .profile
-echo "echo -e '\e[35m  Script Premium VPNshopee By \e[32mRARE \e[0m'" >> .profile
+echo "neofetch --ascii_distro Minix" >> .profile
+echo "echo -e '\e[35m  Script Premium By \e[32mGABUT \e[0m'" >> .profile
 echo "echo -e '\e[35m Sila Type: info, untuk melihat info \e[0m'" >> .profile
-echo "echo -e '\e[35m    Telegram:\e[0m \e[32m@vpnshopee \e[0m'" >> .profile
+echo "echo -e '\e[35m    Telegram:\e[0m \e[32m@sampiiiiu \e[0m'" >> .profile
 echo "echo ''" >> .profile
 echo "echo -e '\e[35m  Type\e[5m \e[32mmenu\e[0m \e[35mUntuk Melihat Menu VPS anda \e[0m'" >> .profile
 echo "echo ''" >> .profile
