@@ -28,15 +28,12 @@ echo -e "$yell $Blink              )\ )  ( /(  )\ )    )                        
 echo -e "$yell $Blink      (   (  (()/(  )\())(()/( ( /(                (    (      $NC"
 echo -e "$yell $Blink      )\  )\  /(_))((_)\  /(_)))\())  (      )    ))\  ))\     $NC"
 echo -e "$yell $Blink     ((_)((_)(_))   _((_)(_)) ((_)\   )\  /(/(   /((_)/((_)    $NC"
-echo -e "$yell $Blink     \ \ / / | _ \ | \| |/ __|| |(_) ((_)((_)_\ (_)) (_))      $NC" 
-echo -e "$yell $Blink      \ V /  |  _/ | .  |\__ \|   \ / _ \|  _ \)/ -_)/ -_)     $NC"
-echo -e "$yell $Blink     .-\_/---|_|---|_|\_||___/|_||_|\___/| .__/ \___|\___|---. $NC"
-echo -e "$yell $Blink     |           Premium Server Script   |_|  By RARE        | $NC"
+echo -e "$yell $Blink                Premium Server Script          $NC"
 echo -e "$yell $Blink     '-------------------------------------------------------' $NC"
 echo "" 
 echo -e "$green   ...........................................................$NC"
 echo ''
-echo -e "$green                   Telegram:$NC $red@vpnshopee               $NC"
+echo -e "$green                   Telegram:$NC $red@sanpiiiiu               $NC"
 echo -e "$green                 Scrript Version:$NC $red 1.0                $NC"
 echo ''
 echo ''
