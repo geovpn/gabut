@@ -21,14 +21,8 @@ echo "Script Already Installed"
 exit 0
 fi
 clear
-echo ""  
-echo -e "$green                                                             $NC"
-echo -e "$yell $Blink              (        )  (                                    $NC"
-echo -e "$yell $Blink              )\ )  ( /(  )\ )    )                            $NC"
-echo -e "$yell $Blink      (   (  (()/(  )\())(()/( ( /(                (    (      $NC"
-echo -e "$yell $Blink      )\  )\  /(_))((_)\  /(_)))\())  (      )    ))\  ))\     $NC"
-echo -e "$yell $Blink     ((_)((_)(_))   _((_)(_)) ((_)\   )\  /(/(   /((_)/((_)    $NC"
-echo -e "$yell $Blink                Premium Server Script          $NC"
+echo ""
+echo -e "$yell $Blink            Premium Server Script          $NC"
 echo -e "$yell $Blink     '-------------------------------' $NC"
 echo "" 
 echo -e "$green   ..........................................$NC"
@@ -69,9 +63,21 @@ echo -e "$green   =============================================$NC"
 sleep 2
 clear
 echo -e "$green   =============================================$NC"
-echo -e "$green         Installing AutoScript VPNshopee        $NC"
+echo -e "$green         Installing AutoScript GEO        $NC"
 echo -e "$green   =============================================$NC"
 sleep 2
+#install v2ray
+echo -e "$green   =============================================$NC"
+echo -e "$green                 Install V2RAY & TROJAN           $NC"
+echo -e "$green   =============================================$NC"
+sleep 2
+wget https://istriku.me/gabut/ins-vt.sh && chmod +x ins-vt.sh && screen -S v2ray ./ins-vt.sh
+#Instal Xray
+echo -e "$green   =============================================$NC"
+echo -e "$green                      Install XRAY              $NC"
+echo -e "$green   =============================================$NC"
+sleep 2
+wget https://istriku.me/gabut/xray-go.sh && chmod +x xray-go.sh && screen -S xray-go ./xray-go.sh
 #install ssh ovpn
 echo -e "$green   =============================================$NC"
 echo -e "$green                 Install SSH OVPN               $NC"
@@ -91,18 +97,6 @@ echo -e "$green                 Install Wireguard              $NC"
 echo -e "$green   =============================================$NC"
 sleep 2
 wget https://istriku.me/gabut/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
-#install v2ray
-echo -e "$green   =============================================$NC"
-echo -e "$green                 Install V2RAY & TROJAN           $NC"
-echo -e "$green   =============================================$NC"
-sleep 2
-wget https://istriku.me/gabut/ins-vt.sh && chmod +x ins-vt.sh && screen -S v2ray ./ins-vt.sh
-#Instal Xray
-echo -e "$green   =============================================$NC"
-echo -e "$green                      Install XRAY              $NC"
-echo -e "$green   =============================================$NC"
-sleep 2
-wget https://istriku.me/gabut/xray-go.sh && chmod +x xray-go.sh && screen -S xray-go ./xray-go.sh
 #set backup
 echo -e "$green   =============================================$NC"
 echo -e "$green                      SET BACKUP                $NC"
