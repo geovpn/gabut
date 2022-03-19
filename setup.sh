@@ -21,25 +21,25 @@ echo "Script Already Installed"
 exit 0
 fi
 clear
-echo ""
-echo -e "$yell $Blink            Premium Server Script          $NC"
-echo -e "$yell $Blink     '-------------------------------' $NC"
+echo ""  
+echo -e "$yell $Blink                Premium Server Script          $NC"
+echo -e "$yell $Blink     '-------------------------------------------------------' $NC"
 echo "" 
-echo -e "$green   ..........................................$NC"
+echo -e "$green   ...........................................................$NC"
 echo ''
-echo -e "$green                   Telegram:$NC $red@sanpiiiiu               $NC"
+echo -e "$green                   Telegram:$NC $red@sampiiiiu               $NC"
 echo -e "$green                 Scrript Version:$NC $red 1.0                $NC"
 echo ''
 echo ''
 echo ''
 echo ''
 echo ''
-echo -e "$green    Proses akan mula dalam 5 Saat!  $NC"
-echo -e "$green   .................................$NC"
+echo -e "$green                  Proses akan mula dalam 5 Saat!              $NC"
+echo -e "$green   ...........................................................$NC"
 sleep 5
 clear
 echo -e "$green   =============================================$NC"
-echo -e "$green    Silahkan Masukkan DOMAIN, Jika TIADA ADA KLIK Enter $NC"
+echo -e "$green    Sila Masukkan DOMAIN, Jika TIADA KLIK Enter $NC"
 echo -e "$green   =============================================$NC"
 mkdir /etc/v2ray
 mkdir /var/lib/premium-script;
@@ -63,21 +63,9 @@ echo -e "$green   =============================================$NC"
 sleep 2
 clear
 echo -e "$green   =============================================$NC"
-echo -e "$green         Installing AutoScript GEO        $NC"
+echo -e "$green         Installing AutoScript VPNshopee        $NC"
 echo -e "$green   =============================================$NC"
 sleep 2
-#install v2ray
-echo -e "$green   =============================================$NC"
-echo -e "$green                 Install V2RAY & TROJAN           $NC"
-echo -e "$green   =============================================$NC"
-sleep 2
-wget https://istriku.me/gabut/ins-vt.sh && chmod +x ins-vt.sh && screen -S v2ray ./ins-vt.sh
-#Instal Xray
-echo -e "$green   =============================================$NC"
-echo -e "$green                      Install XRAY              $NC"
-echo -e "$green   =============================================$NC"
-sleep 2
-wget https://istriku.me/gabut/xray-go.sh && chmod +x xray-go.sh && screen -S xray-go ./xray-go.sh
 #install ssh ovpn
 echo -e "$green   =============================================$NC"
 echo -e "$green                 Install SSH OVPN               $NC"
@@ -97,6 +85,18 @@ echo -e "$green                 Install Wireguard              $NC"
 echo -e "$green   =============================================$NC"
 sleep 2
 wget https://istriku.me/gabut/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
+#install v2ray
+echo -e "$green   =============================================$NC"
+echo -e "$green                 Install V2RAY & TROJAN           $NC"
+echo -e "$green   =============================================$NC"
+sleep 2
+wget https://istriku.me/gabut/ins-vt.sh && chmod +x ins-vt.sh && screen -S v2ray ./ins-vt.sh
+#Instal Xray
+echo -e "$green   =============================================$NC"
+echo -e "$green                      Install XRAY              $NC"
+echo -e "$green   =============================================$NC"
+sleep 2
+wget https://istriku.me/gabut/xray-go.sh && chmod +x xray-go.sh && screen -S xray-go ./xray-go.sh
 #set backup
 echo -e "$green   =============================================$NC"
 echo -e "$green                      SET BACKUP                $NC"
@@ -139,14 +139,14 @@ chmod +x /etc/set.sh
 history -c
 clear
 echo " "
-echo -e "$green   ==================================$NC"
+echo -e "$green   ==========================$NC"
 echo -e "$green    Installation has been completed!!      $NC"
-echo -e "$green   ==================================$NC"
+echo -e "$green   ==========================$NC"
 sleep 2
 echo " "
-echo "=================-{ Autoscript Premium }-=================" | tee -a log-install.txt
+echo "================-{ Autoscript Premium }-=================" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
-echo "----------------------------------------------" | tee -a log-install.txt
+echo "---------------------------------------------------------------" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   >>> Service & Port"  | tee -a log-install.txt
 echo "   - OpenSSH                 : 22"  | tee -a log-install.txt
@@ -182,15 +182,15 @@ echo "   - Auto-Reboot              : [ON]" | tee -a log-install.txt
 echo "   - Auto-Remove-Expired      : [ON]" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "---------------Script by GEO---------------" | tee -a log-install.txt
+echo "-----------------------------Script by GEO-------------------------------------" | tee -a log-install.txt
 echo ""
 sleep 3
-echo -e "$green   =============================================$NC"
-echo -e "$green          SISTEM AKAN REBOOT SEBENTAR LAGI       $NC"
-echo -e "$green   =============================================$NC"
+echo -e "$green   ================================$NC"
+echo -e "$green    SISTEM AKAN REBOOT SEBENTAR LAG       $NC"
+echo -e "$green   ================================$NC"
 echo ""
 rm -f /root/setup.sh
 rm -f /root/.bash_history
-echo " Reboot in 5 Sec, Setelah ON type menu"
-sleep 5
+echo " Reboot in 15 Sec, Setelah ON type menu"
+sleep 15
 reboot
