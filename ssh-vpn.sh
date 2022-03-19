@@ -83,7 +83,6 @@ apt-get --reinstall --fix-missing install -y bzip2 gzip coreutils wget screen rs
 echo "clear" >> .profile
 echo "neofetch --ascii_distro Minix" >> .profile
 echo "echo -e '\e[35m  Script Premium By \e[32mGABUT \e[0m'" >> .profile
-echo "echo -e '\e[35m Sila Type: info, untuk melihat info \e[0m'" >> .profile
 echo "echo -e '\e[35m    Telegram:\e[0m \e[32m@sampiiiiu \e[0m'" >> .profile
 echo "echo ''" >> .profile
 echo "echo -e '\e[35m  Type\e[5m \e[32mmenu\e[0m \e[35mUntuk Melihat Menu VPS anda \e[0m'" >> .profile
