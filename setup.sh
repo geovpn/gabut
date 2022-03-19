@@ -29,9 +29,9 @@ echo -e "$yell $Blink      (   (  (()/(  )\())(()/( ( /(                (    (  
 echo -e "$yell $Blink      )\  )\  /(_))((_)\  /(_)))\())  (      )    ))\  ))\     $NC"
 echo -e "$yell $Blink     ((_)((_)(_))   _((_)(_)) ((_)\   )\  /(/(   /((_)/((_)    $NC"
 echo -e "$yell $Blink                Premium Server Script          $NC"
-echo -e "$yell $Blink     '-------------------------------------------------------' $NC"
+echo -e "$yell $Blink     '-------------------------------' $NC"
 echo "" 
-echo -e "$green   ...........................................................$NC"
+echo -e "$green   ..........................................$NC"
 echo ''
 echo -e "$green                   Telegram:$NC $red@sanpiiiiu               $NC"
 echo -e "$green                 Scrript Version:$NC $red 1.0                $NC"
@@ -40,12 +40,12 @@ echo ''
 echo ''
 echo ''
 echo ''
-echo -e "$green                  Proses akan mula dalam 5 Saat!              $NC"
-echo -e "$green   ...........................................................$NC"
+echo -e "$green    Proses akan mula dalam 5 Saat!  $NC"
+echo -e "$green   .................................$NC"
 sleep 5
 clear
 echo -e "$green   =============================================$NC"
-echo -e "$green    Sila Masukkan DOMAIN, Jika TIADA KLIK Enter $NC"
+echo -e "$green    Silahkan Masukkan DOMAIN, Jika TIADA ADA KLIK Enter $NC"
 echo -e "$green   =============================================$NC"
 mkdir /etc/v2ray
 mkdir /var/lib/premium-script;
@@ -145,14 +145,14 @@ chmod +x /etc/set.sh
 history -c
 clear
 echo " "
-echo -e "$green   =============================================$NC"
-echo -e "$green         Installation has been completed!!      $NC"
-echo -e "$green   =============================================$NC"
+echo -e "$green   ==================================$NC"
+echo -e "$green    Installation has been completed!!      $NC"
+echo -e "$green   ==================================$NC"
 sleep 2
 echo " "
-echo "=====================================-{ Autoscript Premium }-===============================" | tee -a log-install.txt
+echo "=================-{ Autoscript Premium }-=================" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
-echo "--------------------------------------------------------------------------------------------" | tee -a log-install.txt
+echo "----------------------------------------------" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   >>> Service & Port"  | tee -a log-install.txt
 echo "   - OpenSSH                 : 22"  | tee -a log-install.txt
@@ -188,15 +188,15 @@ echo "   - Auto-Reboot              : [ON]" | tee -a log-install.txt
 echo "   - Auto-Remove-Expired      : [ON]" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "-----------------------------Script by RARE-------------------------------------" | tee -a log-install.txt
+echo "---------------Script by GEO---------------" | tee -a log-install.txt
 echo ""
 sleep 3
 echo -e "$green   =============================================$NC"
-echo -e "$green          SISTEM AKAN REBOOT SEBENTAR LAG       $NC"
+echo -e "$green          SISTEM AKAN REBOOT SEBENTAR LAGI       $NC"
 echo -e "$green   =============================================$NC"
 echo ""
 rm -f /root/setup.sh
 rm -f /root/.bash_history
-echo " Reboot in 15 Sec, Setelah ON type menu"
-sleep 15
+echo " Reboot in 5 Sec, Setelah ON type menu"
+sleep 5
 reboot
